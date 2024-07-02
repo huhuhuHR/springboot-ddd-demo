@@ -1,0 +1,198 @@
+repo_name: huhuhuHR/springboot-ddd-demo
+report_id: 6227b9ca2c1b9b505867726b196dd479
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:27:19+00:00'
+requested_by: xlorne
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: wangliang
+  last_updated_on: 2020-01-03 05:40:35.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/init/init.sql
+  detection_source: init/init.sql
+  last_updated_by: wangliang
+  last_updated_on: 2020-01-03 05:40:35.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: lorne
+  last_updated_on: 2022-07-30 01:25:39.000000000 Z
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5582/1483254.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/demo/pom.xml
+  detection_source: demo/pom.xml
+  last_updated_by: gitee-wangliang
+  last_updated_on: 2020-04-19 12:21:31.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/demo/pom.xml
+  detection_source: demo/pom.xml
+  last_updated_by: wangliang
+  last_updated_on: 2020-01-03 05:40:35.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/.codecov.yml
+  detection_source: ".codecov.yml"
+  last_updated_by: gitee-wangliang
+  last_updated_on: 2020-01-07 02:34:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: wangliang
+  last_updated_on: 2020-03-03 07:36:37.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/demo/src/main/resources/application.properties
+  detection_source: demo/src/main/resources/application.properties
+  last_updated_by: wangliang
+  last_updated_on: 2020-01-03 05:40:35.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/demo/pom.xml
+  detection_source: demo/pom.xml
+  last_updated_by: wangliang
+  last_updated_on: 2020-01-03 05:40:35.000000000 Z
+- name: org.mybatis.spring.boot:mybatis-spring-boot-starter
+  description: Spring Boot Support for MyBatis
+  version: 2.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/demo/pom.xml
+  detection_source: demo/pom.xml
+  last_updated_by: gitee-wangliang
+  last_updated_on: 2020-04-19 12:21:31.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: xinpaisoft
+  last_updated_on: 2020-04-26 04:17:49.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-logging
+  description: Starter for logging using Logback. Default logging starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: lorne
+  last_updated_on: 2022-07-30 01:25:39.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: lorne
+  last_updated_on: 2022-07-30 01:25:39.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/springboot-ddd-demo/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: lorne
+  last_updated_on: 2022-07-30 01:25:39.000000000 Z
